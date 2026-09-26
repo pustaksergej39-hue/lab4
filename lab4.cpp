@@ -22,7 +22,7 @@ int main(){ //считает моду ряда чисел массива вне 
 	int most_freq = arr[0]; int max_count = 0;
 	for (int i = 0; i < k;i++) {
 		int curr_count = 0;
-			for (int j = i + 1; j <= k;j++) {
+			for (int j = 0; j < k;j++) {
 				if  (arr[i] == arr[j]) {
 					curr_count++;
 			}
